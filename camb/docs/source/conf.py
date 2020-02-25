@@ -145,3 +145,5 @@ html_theme_options = {}
 html_extra_path = ['../ISiTGRdemo.html']
 
 # -- Extension configuration -------------------------------------------------
+
+autodoc_mock_imports = ['numpy', 'scipy', 'matplotlib']
