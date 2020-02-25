@@ -71,5 +71,6 @@ Other modules:
 * `example`_
 
 .. _example: ISiTGRdemo.html
-* :ref:`genindex`
 
+* :ref:`genindex`
+    
