@@ -10,11 +10,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
+#import os
 import sys
-
-sys.path.insert(0, os.path.abspath('../../'))
-print(os.path.abspath('../../'))
+sys.path.insert(0, '../..')
+#sys.path.insert(0, os.path.abspath('../../'))
+#print(os.path.abspath('../../'))
 print("...............................................")
 
 # -- General configuration ---------------------------------------------------
@@ -145,5 +145,4 @@ html_theme_options = {}
 html_extra_path = ['../ISiTGRdemo.html']
 
 # -- Extension configuration -------------------------------------------------
-
-autodoc_mock_imports = ['numpy', 'scipy', 'matplotlib']
+#autodoc_mock_imports = ["numpy"]
